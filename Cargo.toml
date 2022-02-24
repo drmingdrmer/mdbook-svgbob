@@ -18,7 +18,7 @@ include = ["src/**/*", "Cargo.toml", "README.md"]
 maintenance = { status = "passively-maintained" }
 
 [dependencies]
-mdbook = "0.3"
+mdbook = "0.4"
 svgbob = "0.4"
 svg = "0.7"
 
@@ -30,5 +30,5 @@ semver = "0.9.0"
 toml = "0.5"
 serde = "1.0"
 serde_json = "1.0"
-pulldown-cmark = "0.7"
-pulldown-cmark-to-cmark = "3.0"
+pulldown-cmark = "0.9.1"
+pulldown-cmark-to-cmark = "10.0.0"
