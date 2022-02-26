@@ -1,10 +1,14 @@
 [package]
 name = "mdbook-svgbob"
-version = "0.1.1"
-authors = ["Alex Koz. <a@koz.email>"]
+version = "0.1.2"
+authors = [
+    "drdr xp <drdr.xp@gmail.com>",
+    "Alex Koz. <a@koz.email>",
+]
+
 description = "SvgBob mdbook preprocessor which swaps code-blocks with neat SVG."
-homepage = "https://nest.pijul.com/fzzr/mdbook-svgbob"
-repository = "https://github.com/fzzr-/mdbook-svgbob.git"
+homepage = "https://github.com/drmingdrmer/mdbook-svgbob"
+repository = "https://github.com/drmingdrmer/mdbook-svgbob"
 keywords = ["mdbook", "markdown", "ascii", "svg", "bob"]
 categories = ["command-line-utilities", "text-processing", "visualization"]
 

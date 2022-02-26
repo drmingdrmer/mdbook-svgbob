@@ -1,8 +1,10 @@
 # Svgbob plugin for mdbook
 
-[![Crate current version badge](https://img.shields.io/crates/v/mdbook-svgbob.svg)](https://crates.io/crates/mdbook-svgbob)
-![](https://github.com/fzzr-/mdbook-svgbob/workflows/Tests/badge.svg)
-![](https://github.com/fzzr-/mdbook-svgbob/workflows/Audit/badge.svg)
+<!-- [![Crate current version badge](https://img.shields.io/crates/v/mdbook-svgbob.svg)](https://crates.io/crates/mdbook-svgbob) -->
+<!-- ![](https://github.com/fzzr-/mdbook-svgbob/workflows/Tests/badge.svg) -->
+<!-- ![](https://github.com/fzzr-/mdbook-svgbob/workflows/Audit/badge.svg) -->
+
+Forked to fix dependency issues.
 
 [Svgbob][]-based preprocessor for [mdbook][] transform your ascii diagrams into a svg.
 
@@ -21,22 +23,7 @@
 Get latest release:
 
 ```bash
-cargo install mdbook-svgbob
-```
-
-Or install from the git mirror:
-
-```bash
-cargo install --git https://github.com/fzzr-/mdbook-svgbob.git
-```
-
-If you want to contribute I recommend to get sources from pj repo:
-
-```bash
-# install pijul if needed
-cargo install pijul
-pijul clone nest.pijul.com:fzzr/mdbook-svgbob
-cargo install --path mdbook-svgbob
+cargo install --git https://github.com/drmingdrmer/mdbook-svgbob.git
 ```
 
 
